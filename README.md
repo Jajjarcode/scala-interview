@@ -20,6 +20,13 @@ This repository is a nice place to maintain the types of questions I like to ask
 
 ## Functional Programming
 
+## Patterns
+* Can you briefly describe a typeclass
+* Rewrite this Java code using the typeclass style:
+  `public interface Explodable { 
+    public void explode();
+  }`
+
 ## Frameworks
 * Give me a brief overview of Akka
 
