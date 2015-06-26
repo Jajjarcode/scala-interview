@@ -29,10 +29,20 @@ This repository is a nice place to maintain the types of questions I like to ask
 
 ## Patterns
 * Can you briefly describe a typeclass
-* Rewrite this Java code using the typeclass style:
-  `public interface Explodable { 
-    public void explode();
-  }`
+* Rewrite this Java code using a typeclass style:
+```java
+public interface Explodable { 
+  public void explode();
+}
+public class Bomb extends Explodable {
+  public void explode { System.out.println("boom"); }
+}
+public class Main {
+  public static void main(String args[]) {
+    new Bomb().explode();
+  }
+}
+```
 
 ## Frameworks
 * Describe the actor model briefly
