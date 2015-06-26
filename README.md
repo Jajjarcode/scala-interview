@@ -41,6 +41,10 @@ def customer : Future[Customer] = ...
 def invoice : Future[Invoice] = ...
 for(c <- customer; i <- invoice) { // do stuff }
 ```
+* If two threads use a shared map, what would happen if both threads are writing and reading to that map?
+* If the threads above synchronize on (this) would that make it thread safe?
+* How can you make it thread safe?
+* If a thread has a monitor and then calls synchronize on that monitor again, what will happen?
 
 ## Whiteboard
 * Given a function, `def download(url:String):Future[String]`, implement the following function: `def downloadAll(urls:Seq[String]):Future[Seq[String]]`
