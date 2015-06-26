@@ -12,14 +12,18 @@ This repository is a nice place to maintain the types of questions I like to ask
 * Explain the following terms: ‘Nil,’ ‘Null,’ ‘None,’ ‘Nothing’
 * Explain the following terms: abstract, apply, anyval, alias
 * Explain the following terms: copy, closure, covariance, curry
+* Explain the following terms: literal, lazy, linearization, last
+* Explain the following terms: flatmap, for-comprehension, 
 * Explain the following terms: extends, expression, erasure, extractor
 * Explain the following terms: tuple, trait, tail, typeclass
-* Explain the following terms: super, sequence, some, symbol
+* Explain the following terms: `map`, `match`, `method`, `manifest`
+* Explain the following terms: super, sequence, Some, sealed
 * Explain the following terms: val, var, variance, vararg
 * Explain the following terms: option, object, override, ordered
 
 ## General
 * What does the following method signature mean and why would it be useful: `def foo(f : => String)`
+* If you wanted to build a List of (many) elements how would you do that in Scala. How about if you knew the size in advance.
 
 ## Functional Programming
 
@@ -41,6 +45,8 @@ def customer : Future[Customer] = ...
 def invoice : Future[Invoice] = ...
 for(c <- customer; i <- invoice) { // do stuff }
 ```
+* Given a Future, f, how would you perform an action if the future fails without blocking on the future.
+* Given a Future, f that returns A, and a function A => B how would you adapt that so that the caller can receive a B once the future completes.
 * If two threads use a shared map, what would happen if both threads are writing and reading to that map?
 * If the threads above synchronize on (this) would that make it thread safe?
 * How can you make it thread safe?
