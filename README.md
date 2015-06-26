@@ -9,17 +9,16 @@ This repository is a nice place to maintain the types of questions I like to ask
 * Why do you think some people do not use Scala and instead prefer other JVM languages.
 
 ## Alliterations  
-* Explain the following terms: ‘Nil,’ ‘Null,’ ‘None,’ ‘Nothing’
-* Explain the following terms: abstract, apply, anyval, alias
-* Explain the following terms: copy, closure, covariance, curry
-* Explain the following terms: literal, lazy, linearization, last
-* Explain the following terms: flatmap, for-comprehension, 
-* Explain the following terms: extends, expression, erasure, extractor
-* Explain the following terms: tuple, trait, tail, typeclass
+* Explain the following terms: `Nil`, `Null`, `None`, `Nothing`
+* Explain the following terms: `abstract`, `apply`, `anyval`, `alias`
+* Explain the following terms: `copy`, `closure`, `covariance`, `curry`
+* Explain the following terms: `literal`, `lazy`, `linearization`, `last`
+* Explain the following terms: `extends`, `expression`, `erasure`, `extractor`
+* Explain the following terms: `tuple`, `trait`, `tail`, `typeclass`
 * Explain the following terms: `map`, `match`, `method`, `manifest`
-* Explain the following terms: super, sequence, Some, sealed
-* Explain the following terms: val, var, variance, vararg
-* Explain the following terms: option, object, override, ordered
+* Explain the following terms: `super`, `sequence`, `Some`, `sealed`
+* Explain the following terms: `val`, `var`, `variance`, `vararg`
+* Explain the following terms: `option`, `object`, `override`, `ordered`
 
 ## General
 * What does the following method signature mean and why would it be useful: `def foo(f : => String)`
