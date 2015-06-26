@@ -6,9 +6,17 @@ This repository is a nice place to maintain the types of questions I like to ask
 * If you were forced to use Java, but could take any feature from Scala you wanted, what would it be. (Assume Java 8 to avoid everyone saying first class functions). Related: What is your favourite feature of Scala.
 * Why did you start using Scala in the first place.
 * What would you change in Scala if you could.
+* Why do you think some people do not use Scala and instead prefer other JVM languages.
 
-## General Knowledge
-* What is the difference between nil, null, None and Nothing
+## Alliterations  
+* Explain the following terms: ‘Nil,’ ‘Null,’ ‘None,’ ‘Nothing’
+* Explain the following terms: abstract, apply, anyval, alias
+* Explain the following terms: copy, closure, covariance, curry
+* Explain the following terms: extends, expression, erasure, extractor
+* Explain the following terms: tuple, trait, tail, typeclass
+* Explain the following terms: super, sequence, some, symbol
+* Explain the following terms: val, var, variance, vararg
+* Explain the following terms: option, object, override, ordered
 
 ## Functional Programming
 
