@@ -18,6 +18,9 @@ This repository is a nice place to maintain the types of questions I like to ask
 * Explain the following terms: val, var, variance, vararg
 * Explain the following terms: option, object, override, ordered
 
+## General
+* What does the following method signature mean and why would it be useful: `def foo(f : => String)`
+
 ## Functional Programming
 
 ## Patterns
@@ -28,11 +31,56 @@ This repository is a nice place to maintain the types of questions I like to ask
   }`
 
 ## Frameworks
-* Give me a brief overview of Akka
+* Describe the actor model briefly
+* 
+
+## Concurrency
+* Can you suggest a way to improve the following snippet:
+```scala
+def customer : Future[Customer] = ...
+def invoice : Future[Invoice] = ...
+for(c <- customer; i <- invoice) { // do stuff }
+```
 
 ## Whiteboard
 * Given a function, `def download(url:String):Future[String]`, implement the following function: `def downloadAll(urls:Seq[String]):Future[Seq[String]]`
-* 
+* How many errors can you spot in the following:
+```scala
+How many errors can you spot in the following:
+
+(assume imports)
+
+public class Foo(String : name) extends BooTrait, MooTrait {
+
+  val time : Long = _
+  val id   : UUID = UUID.randomUuid()
+
+  override def toString = s"My name is {name}"
+
+  def newFoo() = new Foo(Random.nextString)
+  def newFoo(name : String) = new Foo(name)
+
+  def map(f: String => String) = new Foo(f(name))
+  def map(f: String => Int) = new Foo(f(name).toString)
+
+  def whodunnit(person: String = "Professor Plum", weapon: Weapon= Weapon.Candlestick) = {}
+  def whodunnit(person: String = "Professor Plum", where: Place = Place.Study) = {}
+
+  def moo(implicit execution: ExecutionContext)(f : => T) : Future[T] = Future { f }
+
+  def zoo(any: Any) = any match {
+    case "sammy" => println("my name is sammy")
+    case other : String => println("I am not called sammy")
+  }
+
+  def voo[A <: Any](a : A) : Unit = println(a)
+
+  def stop : Message = StopExecuting()
+
+  trait Message
+  case class StopMessage extends Message
+}
+```
 
 ## JVM
 
