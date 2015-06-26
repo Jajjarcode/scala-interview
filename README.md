@@ -53,7 +53,8 @@ for(c <- customer; i <- invoice) { // do stuff }
 * If a thread has a monitor and then calls synchronize on that monitor again, what will happen?
 
 ## Whiteboard
-* Given a function, `def download(url:String):Future[String]`, implement the following function: `def downloadAll(urls:Seq[String]):Future[Seq[String]]`
+* Given a function, `def download(url:String):Future[String]`, implement the following function:
+  `def downloadAll(urls:Seq[String]):Future[Seq[String]]`
 * How many errors can you spot in the following:
 ```scala
 How many errors can you spot in the following:
