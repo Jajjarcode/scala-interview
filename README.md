@@ -96,3 +96,6 @@ public class Foo(String : name) extends BooTrait, MooTrait {
 ## JVM
 
 ## Data Structures
+* Can you describe what a priority queue is.
+* Can you tell me what a heap is.
+* Linked List vs Array - when would you choose which (In an ADT way, not necessarily just in Scala)
