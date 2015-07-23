@@ -102,6 +102,9 @@ public class Foo(String : name) extends BooTrait, MooTrait {
 }
 ```
 
+## Web
+* Describe HATEOS and the pros and cons of such an approach
+
 ## JVM
 
 ## Data Structures
